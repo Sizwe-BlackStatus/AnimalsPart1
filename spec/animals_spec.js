@@ -6,9 +6,6 @@ describe("The animal ", () => {
   it("Dog eats Food", () => {
     expect(dog.eat()).toBe("Food");
   });
-  it("Dog does not eat food", () => {
-    expect(dog.eat()).not.toBe("food");
-  });
   it("Cat does not bark", () => {
     expect(cat.sound()).not.toBe("Bark");
   });
@@ -20,8 +17,5 @@ describe("The animal ", () => {
   });
   it("Cat eats Food", () => {
     expect(cat.eat()).toBe("Food");
-  });
-  it("Cat does not eat food", () => {
-    expect(cat.eat()).not.toBe("food");
   });
 });
